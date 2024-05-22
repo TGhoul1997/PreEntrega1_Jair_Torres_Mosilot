@@ -3,9 +3,9 @@ do {
     nombreCompleto = prompt("Hola! Para accceder a un préstamo a cuotas ingrese su nombre completo o escriba 'ESC' para salir.");
     if (nombreCompleto == "ESC") {
         alert("¡Hasta pronto!");
-    } else if (nombreCompleto == ""){
+    } else if (nombreCompleto == "") {
         alert("Debe ingresar su nombre.");
-    } else{
+    } else {
         let ingresarDni = prompt("Hola " + nombreCompleto.toUpperCase() + ". Digite su DNI.");
         if (ingresarDni !== "" && ingresarDni.length === 8) {
             let ingresarMonto = parseFloat(prompt("Ingrese el monto en soles que desea solicitar."));
