@@ -98,5 +98,5 @@ do {
         } else {
             alert("Debe ingresar su DNI para poder continuar.");
         };
-    }
+    };
 } while (nombreCompleto !== "ESC");
