@@ -1,7 +1,7 @@
 let nombreCompleto;
 do {
     nombreCompleto = prompt("Hola! Para accceder a un préstamo a cuotas ingrese su nombre completo o escriba 'ESC' para salir.").toUpperCase();
-    if (nombreCompleto !== "") {
+    if (nombreCompleto !== "ESC" && nombreCompleto !== "") {
         let ingresarDni = prompt("Hola " + nombreCompleto + ". Digite su DNI.");
         if (ingresarDni !== "" && ingresarDni.length === 8) {
             let ingresarMonto = parseFloat(prompt("Ingrese el monto en soles que desea solicitar."));
