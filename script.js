@@ -16,10 +16,10 @@ do {
                         function operacionTresCuotas(a, b, c) {
                             switch (c) {
                                 case 1:
-                                    return (a * 1.20) / b;
+                                    return (a * 1.05) / b;
                                     break;
                                 case 2:
-                                    return a * 1.20;
+                                    return a * 1.05;
                                     break;
                                 default:
                                     return 0;
@@ -35,10 +35,10 @@ do {
                         function operacionSeisCuotas(a, b, c) {
                             switch (c) {
                                 case 1:
-                                    return (a * 1.15) / b;
+                                    return (a * 1.10) / b;
                                     break;
                                 case 2:
-                                    return a * 1.15;
+                                    return a * 1.10;
                                     break;
                                 default:
                                     return 0;
@@ -54,10 +54,10 @@ do {
                         function operacionDoceCuotas(a, b, c) {
                             switch (c) {
                                 case 1:
-                                    return (a * 1.10) / b;
+                                    return (a * 1.15) / b;
                                     break;
                                 case 2:
-                                    return a * 1.10;
+                                    return a * 1.15;
                                     break;
                                 default:
                                     return 0;
@@ -73,10 +73,10 @@ do {
                         function operacionTresSeisCuotas(a, b, c) {
                             switch (c) {
                                 case 1:
-                                    return (a * 1.05) / b;
+                                    return (a * 1.20) / b;
                                     break;
                                 case 2:
-                                    return a * 1.05;
+                                    return a * 1.20;
                                     break;
                                 default:
                                     return 0;
