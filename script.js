@@ -1,12 +1,12 @@
 let nombreCompleto;
 do {
-    nombreCompleto = prompt("Hola! Para accceder a un préstamo a cuotas ingrese su nombre completo o escriba 'ESC' para salir.").toUpperCase();
+    nombreCompleto = prompt("Hola! Para accceder a un préstamo a cuotas ingrese su nombre completo o escriba 'ESC' para salir.");
     if (nombreCompleto == "ESC") {
         alert("¡Hasta pronto!");
     } else if (nombreCompleto == ""){
         alert("Debe ingresar su nombre.");
     } else{
-        let ingresarDni = prompt("Hola " + nombreCompleto + ". Digite su DNI.");
+        let ingresarDni = prompt("Hola " + nombreCompleto.toUpperCase() + ". Digite su DNI.");
         if (ingresarDni !== "" && ingresarDni.length === 8) {
             let ingresarMonto = parseFloat(prompt("Ingrese el monto en soles que desea solicitar."));
             if (ingresarMonto !== "" && ingresarMonto >= 1000) {
